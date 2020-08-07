@@ -17,7 +17,20 @@
         <module>Simple-Configuration</module>
         <module>Simple-Yaml</module>
     </modules>
-
+    
+    <distributionManagement>
+        <repository>
+            <id>alessiodp-repo</id>
+            <name>AlessioDP repository</name>
+            <url>https://repo.alessiodp.com/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>alessiodp-repo</id>
+            <name>AlessioDP repository</name>
+            <url>https://repo.alessiodp.com/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    
     <build>
         <plugins>
             <plugin>
